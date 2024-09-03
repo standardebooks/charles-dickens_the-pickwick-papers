@@ -11,6 +11,13 @@
 	text-indent: 0;
 }
 
+#chapter-3 blockquote header p{
+	text-align: center;
+	text-indent: 0;
+	font-variant: small-caps;
+	margin-bottom: 0.5em;
+}
+
 /* Letter formatting */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
