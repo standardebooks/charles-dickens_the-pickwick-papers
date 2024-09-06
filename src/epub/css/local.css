@@ -11,7 +11,8 @@
 	text-indent: 0;
 }
 
-#chapter-3 blockquote header p{
+#chapter-3 blockquote header p,
+#chapter-6 blockquote header p{
 	text-align: center;
 	text-indent: 0;
 	font-variant: small-caps;
@@ -47,12 +48,14 @@ footer{
 
 /* Song and verse styling */
 [epub|type~="z3998:song"] p,
+[epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
@@ -60,6 +63,24 @@ footer{
 }
 
 [epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
 }
