@@ -19,6 +19,22 @@
 	margin-bottom: 0.5em;
 }
 
+#chapter-11 blockquote:nth-of-type(2) p{
+	text-align: center;
+	text-indent: 0;
+	margin-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+#chapter-11 blockquote:nth-of-type(3) header p{
+	text-align: center;
+	text-indent: 0;
+	font-variant: small-caps;
+	margin-bottom: 0.5em;
+}
+
 /* Letter formatting */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
