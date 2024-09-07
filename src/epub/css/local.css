@@ -11,8 +11,7 @@
 	text-indent: 0;
 }
 
-#chapter-3 blockquote header p,
-#chapter-6 blockquote header p{
+blockquote header p{
 	text-align: center;
 	text-indent: 0;
 	font-variant: small-caps;
