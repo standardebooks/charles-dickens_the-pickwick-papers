@@ -1,6 +1,17 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+@font-face{
+	font-family: "Standard Blackletter";
+	font-weight: 700;
+	src: url("../fonts/standard-blackletter.otf") format("opentype");
+}
+
+.blackletter{
+	font-family: "Standard Blackletter", serif;
+	font-variant: normal;
+	font-weight: 700;
+}
 
 /* bridgeheads */
 [epub|type~="bridgehead"]{
@@ -32,6 +43,16 @@ blockquote header p{
 	text-indent: 0;
 	font-variant: small-caps;
 	margin-bottom: 0.5em;
+}
+
+#chapter-15 blockquote:first-of-type p{
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-15 blockquote:first-of-type p:first-of-type{
+	font-family: "Standard Blackletter";
+	font-size: 150%;
 }
 
 /* Letter formatting */
