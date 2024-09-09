@@ -28,26 +28,26 @@ blockquote header{
 }
 
 blockquote header p{
+	font-size: 110%;
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: small-caps;
-	font-size: 110%;
 }
 
 #chapter-11 blockquote:nth-of-type(2) p{
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	margin-bottom: 0.5em;
 	text-align: center;
 	text-indent: 0;
-	margin-bottom: 0.5em;
-	margin-bottom: 0.5em;
-	font-weight: bold;
-	font-size: 110%;
 }
 
 #chapter-11 blockquote:nth-of-type(3) header p{
-	text-align: center;
-	text-indent: 0;
 	font-variant: small-caps;
 	margin-bottom: 0.5em;
+	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-15 blockquote:first-of-type p{
@@ -118,7 +118,6 @@ footer{
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
-
 
 p span.i1{
 	padding-left: 2em;
