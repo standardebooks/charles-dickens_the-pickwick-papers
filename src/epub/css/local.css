@@ -64,6 +64,15 @@ blockquote header p{
 	font-size: 90%;
 }
 
+#chapter-18 blockquote:last-of-type header p{
+	font-size: 100%;
+	font-variant: normal;
+}
+
+#chapter-18 blockquote:last-of-type header p:last-of-type{
+	font-style: italic;
+}
+
 /* Letter formatting */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
@@ -89,6 +98,10 @@ footer{
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
+}
+
+[epub|type~="z3998:recipient"]{
+	text-align: left;
 }
 
 /* Song and verse styling */
