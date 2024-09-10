@@ -28,7 +28,6 @@ blockquote header{
 }
 
 blockquote header p{
-	font-size: 110%;
 	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
@@ -65,7 +64,6 @@ blockquote header p{
 }
 
 #chapter-18 blockquote:last-of-type header p{
-	font-size: 100%;
 	font-variant: normal;
 }
 
