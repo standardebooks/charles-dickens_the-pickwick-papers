@@ -72,6 +72,22 @@ header p{
 	font-style: italic;
 }
 
+#chapter-43 blockquote header{
+	margin-bottom: 0;
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-43 blockquote header p{
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-43 blockquote div{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 /* Letter formatting */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
