@@ -88,6 +88,11 @@ header p{
 	margin-top: 1em;
 }
 
+#chapter-52 blockquote header p{
+	font-variant: none;
+	text-align: right; 
+}
+
 /* Letter formatting */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
