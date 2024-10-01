@@ -54,7 +54,7 @@ header p{
 	font-size: 1.4em;
 }
 
-#chapter-17 blockquote p:last-of-type{
+#chapter-17 blockquote header p:last-of-type{
 	font-size: 0.8em;
 }
 
