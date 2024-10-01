@@ -7,12 +7,6 @@
 	src: url("../fonts/standard-blackletter.otf") format("opentype");
 }
 
-.blackletter{
-	font-family: "Standard Blackletter", serif;
-	font-variant: normal;
-	font-weight: 700;
-}
-
 /* bridgeheads */
 [epub|type~="bridgehead"]{
 	display: inline-block;
@@ -35,7 +29,7 @@ header p{
 }
 
 #chapter-11 blockquote:nth-of-type(2) p{
-	font-size: 110%;
+	font-size: 1.2em;
 	font-weight: bold;
 	margin-bottom: 0.5em;
 	margin-bottom: 0.5em;
@@ -57,11 +51,11 @@ header p{
 
 #chapter-15 blockquote:first-of-type p:first-of-type{
 	font-family: "Standard Blackletter";
-	font-size: 150%;
+	font-size: 1.4em;
 }
 
 #chapter-17 blockquote p:last-of-type{
-	font-size: 90%;
+	font-size: 0.8em;
 }
 
 #chapter-18 blockquote:last-of-type header p{
@@ -114,14 +108,8 @@ footer{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
-	text-align: initial;
-	text-indent: 0;
-}
-
 [epub|type~="z3998:recipient"]{
-	text-align: left;
+	text-align: initial;
 }
 
 /* Song and verse styling */
@@ -147,8 +135,7 @@ footer{
 }
 
 [epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
 
