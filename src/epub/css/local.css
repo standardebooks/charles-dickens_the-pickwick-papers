@@ -18,30 +18,20 @@
 }
 /* end bridgeheads */
 
-header{
+blockquote header{
 	margin-bottom: 1em;
 }
 
-header p{
+blockquote header p{
 	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
 }
 
 #chapter-11 blockquote:nth-of-type(2) p{
-	font-size: 1.2em;
+	font-size: larger;
 	font-weight: bold;
-	margin-bottom: 0.5em;
-	margin-bottom: 0.5em;
 	text-align: center;
-	text-indent: 0;
-}
-
-#chapter-11 blockquote:nth-of-type(3) header p{
-	font-variant: small-caps;
-	margin-bottom: 0.5em;
-	text-align: center;
-	text-indent: 0;
 }
 
 #chapter-15 blockquote:first-of-type p{
@@ -51,11 +41,11 @@ header p{
 
 #chapter-15 blockquote:first-of-type p:first-of-type{
 	font-family: "Standard Blackletter";
-	font-size: 1.4em;
+	font-size: larger;
 }
 
-#chapter-17 blockquote header p:last-of-type{
-	font-size: 0.8em;
+#chapter-17 blockquote header p:first-of-type{
+	font-size: larger;
 }
 
 #chapter-18 blockquote:last-of-type header p{
@@ -66,19 +56,12 @@ header p{
 	font-style: italic;
 }
 
-#chapter-43 blockquote header{
-	margin-bottom: 0;
-	text-align: center;
-	text-indent: 0;
-}
-
 #chapter-43 blockquote header p{
 	text-align: center;
 	text-indent: 0;
 }
 
 #chapter-43 blockquote div{
-	margin-bottom: 1em;
 	margin-top: 1em;
 }
 
