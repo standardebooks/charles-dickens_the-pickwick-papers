@@ -45,6 +45,8 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008107166</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">An elderly gentleman and his friends travel around Britain and have a series of comic adventures.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In &lt;i&gt;The Pickwick Papers&lt;/i&gt;, the wealthy and amiable Mr. Pickwick and his friends—calling themselves the “Pickwick Club”—wander around England out of curiosity and an interest in human nature. On the way, they have many loosely-related comic adventures. Mr. Pickwick eventually employs a cockney man-servant, Sam Weller, whose fractured language and forthright attitude adds a great deal of amusement. Late in the book, a continuing story relates to a prosecution of Mr. Pickwick for breach of promise by his erstwhile landlady.&lt;/p&gt;
