@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-35.xhtml">
-		<ignore>
-			<code>t-043</code>
+		<ignore code="t-043">
 			<reason>Lint complains about the word “elite” being italicised, but it’s pretty clear that it is emphasised speech in this instance.</reason>
 		</ignore>
 	</file>
